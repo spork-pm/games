@@ -1,0 +1,21 @@
+{
+  "version": "1.2.0",
+  "description": "Native Battle.net alternative for Apple Silicon Macs: install, update and play Blizzard games without the Battle.net app",
+  "homepage": "https://wowlocal.github.io/waypoint-launcher/",
+  "license": "0BSD",
+  "architecture": {
+    "arm64": {
+      "url": "https://github.com/wowlocal/waypoint-launcher/releases/download/v1.2.0/Waypoint-1.2.0.dmg",
+      "hash": "sha256:81934b60339faada473ff48ff59a36a3fd57dbe6ff76b3d8484ae360bfaf1dcc"
+    }
+  },
+  "app": "Waypoint.app",
+  "checkver": {
+    "github": "wowlocal/waypoint-launcher"
+  },
+  "autoupdate": {
+    "arm64": {
+      "url": "https://github.com/wowlocal/waypoint-launcher/releases/download/v$version/Waypoint-$version.dmg"
+    }
+  }
+}
