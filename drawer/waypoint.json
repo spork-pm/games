@@ -14,8 +14,10 @@
     "github": "wowlocal/waypoint-launcher"
   },
   "autoupdate": {
-    "arm64": {
-      "url": "https://github.com/wowlocal/waypoint-launcher/releases/download/v$version/Waypoint-$version.dmg"
+    "architecture": {
+      "arm64": {
+        "url": "https://github.com/wowlocal/waypoint-launcher/releases/download/v$version/Waypoint-$version.dmg"
+      }
     }
   }
 }
